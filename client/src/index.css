@@ -190,4 +190,28 @@
 #category{
     cursor:pointer;
     width: 190px;
+} 
+
+
+#back {
+  font-size: 1.2em; 
+  padding: 10px 20px;
+  background-color: #FF7F50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back:hover {
+   background-color: #FF7F50;
+} 
+.popContainer {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
 }

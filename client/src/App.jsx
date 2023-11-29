@@ -46,7 +46,7 @@ const Delete = async(obj)=>{
   try {
     await axios.delete(`http://localhost:8080/api/pets/${obj}`)
     console.log(obj._id)
-    // setCount(count+1)
+    setCount(count+1)
     setView('form')
   } catch (error) {
     console.log(error)
